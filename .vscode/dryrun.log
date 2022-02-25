@@ -1,6 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/Users/yeeter/projects/github.com/darrow-olykos/rusty-gists'
-cargo doc
-git add --all && git commit -m "update" && git push;
-make: Leaving directory `/Users/yeeter/projects/github.com/darrow-olykos/rusty-gists'
- 
