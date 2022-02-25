@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["size_and_align_of","Returns byte alignment and number of bytes the provided type takes up in memory"],["strlen","Returns length of something that can be converted into a &str"]]});
