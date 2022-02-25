@@ -1,5 +1,8 @@
-push: | target/doc/*
+.PHONY: push
+.PHONY: build-docs
+
+push:
 	git add --all && git commit -m "update" && git push;
 
-target/doc/*: 
+build-docs: 
 	cargo doc
