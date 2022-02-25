@@ -1,6 +1,7 @@
-.PHONY: push
-push: | ./target/doc
+doc_dir:=./target/doc
+
+push: |
 	git add --all && git commit -m "update" && git push;
 
-target/doc: 
+$(doc_dir): 
 	cargo doc
