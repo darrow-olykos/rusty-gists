@@ -1,1 +1,1 @@
-window.ALL_CRATES = ["rusty_gists"];
+window.ALL_CRATES = ["lib"];
