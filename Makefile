@@ -1,5 +1,5 @@
-push: | target/doc
+push: | "target/doc"
 	git add --all && git commit -m "update" && git push;
 
-target/doc: 
+"target/doc": 
 	cargo doc
