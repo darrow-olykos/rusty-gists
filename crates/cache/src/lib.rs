@@ -2,7 +2,7 @@
 /// (I've modified their example to use a HashMap instead of a single value)
 use std::collections::HashMap;
 
-/// non-generic cacher for calculation with two u64's as input and u64 as output
+/// cacher for calculation with two u64's as input and u64 as output
 /// can be generalized more
 pub struct Cacher<T>
 where
