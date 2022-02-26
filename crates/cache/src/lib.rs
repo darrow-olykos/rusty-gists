@@ -16,7 +16,7 @@ impl<T> Cacher<T>
 where
     T: FnMut(u64, u64) -> u64,
 {
-    /// returns a Cacher<T> which returns (possibly cached) values resulting from calculation `T`
+    /// Returns a Cacher<T> which can cache results of calculations for the provided closure.
     ///
     /// # Arguments
     ///
@@ -35,7 +35,7 @@ where
         }
     }
 
-    /// returns value of calculation `T`. Cached value is returned if unique `n`, `k` pair provided, otherwise calcuation runs and then value is cached.
+    /// Returns value of calculation `T`. Cached value is returned if unique `n`, `k` pair provided, otherwise calcuation runs and then value is cached.
     ///
     /// # Examples
     ///
