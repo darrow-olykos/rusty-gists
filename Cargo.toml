@@ -2,11 +2,13 @@
 members = ["crates/*"]
 
 [package]
+edition = "2021"
 name = "rusty-gists"
 version = "0.1.0"
-edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-collections = { path = "crates/collections" }
+cache = {path = "crates/cache"}
+collections = {path = "crates/collections"}
+math = {path = "crates/math"}

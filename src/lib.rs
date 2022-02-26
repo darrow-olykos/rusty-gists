@@ -77,22 +77,5 @@ pub fn strlen(s: impl AsRef<str>) -> usize {
     s.as_ref().len()
 }
 
-/// Returns the binomial coefficient for "n choose k"
-/// the binomial coefficient is the number of ways of choosing k distinct integers from the set {1, ..., n}
-///
-/// # Examples
-/// ```rust
-/// use rusty_gists::binom;
-///
-/// assert_eq!(binom(4, 3), 4);
-/// assert_eq!(binom(5, 3), 10);
-/// assert_eq!(binom(9, 4), 126);
-/// ```
-///
-pub fn binom(n: u64, k: u64) -> u64 {
-    let factorial = |x| (1..=x).fold(1, |prev, x| prev * x);
-    factorial(n) / (factorial(k) * factorial(n - k))
-}
-
 #[cfg(test)]
 mod tests {}
