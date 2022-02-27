@@ -1,6 +1,6 @@
 use collections::*;
 use math::*;
-use cache::*;
+use my_cache::*;
 
 fn main() {
     hello();

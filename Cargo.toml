@@ -9,6 +9,6 @@ version = "0.1.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-cache = {path = "crates/cache"}
+my_cache = {path = "crates/my_cache"}
 collections = {path = "crates/collections"}
 math = {path = "crates/math"}

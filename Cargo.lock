@@ -3,10 +3,6 @@
 version = 3
 
 [[package]]
-name = "cache"
-version = "0.1.0"
-
-[[package]]
 name = "collections"
 version = "0.1.0"
 
@@ -15,10 +11,14 @@ name = "math"
 version = "0.1.0"
 
 [[package]]
+name = "my_cache"
+version = "0.1.0"
+
+[[package]]
 name = "rusty-gists"
 version = "0.1.0"
 dependencies = [
- "cache",
  "collections",
  "math",
+ "my_cache",
 ]

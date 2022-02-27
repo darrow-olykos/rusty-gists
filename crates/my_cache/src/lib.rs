@@ -1,5 +1,5 @@
-/// Credit to: https://doc.rust-lang.org/book/ch13-01-closures.html
-/// (I've modified their example to use a HashMap instead of a single value)
+// Credit to: https://doc.rust-lang.org/book/ch13-01-closures.html
+// (I've modified their example to use a HashMap instead of a single value)
 use std::collections::HashMap;
 
 /// cacher for calculation with two u64's as input and u64 as output
