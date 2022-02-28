@@ -24,7 +24,7 @@ where
     ///
     /// # Examples
     /// ```rust
-    /// use cache::Cacher;
+    /// use my_cache::Cacher;
     /// let mut cacher = Cacher::new(|x,y|x+y);
     /// ```
     pub fn new(calculation: T) -> Self {
@@ -43,7 +43,7 @@ where
     /// use std::rc::Rc;
     /// use std::cell::{RefCell, RefMut};
     ///
-    /// use cache::Cacher;
+    /// use my_cache::Cacher;
     ///
     /// let mut count = Rc::new(RefCell::new(0));
     /// let add = |x, y| {
